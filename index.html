@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NeonFeed - Cyberpunk News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NeonFeed</h1>
+    <p>Search futuristic news topics</p>
+
+    <input type="text" id="topicInput" placeholder="Enter topic like AI or space">
+    <button onclick="getNews()">Load News</button>
+
+    <div id="loader" class="spinner hidden"></div>
+    <div id="newsContainer"></div>
+
+    <h2>NASA Space Pic of the Day</h2>
+    <div id="spacePic"></div>
+
+    <p style="margin-top: 40px">
+        <a href="https://newsapi.org/docs" target="_blank" style="color: #00ffff">News API Docs</a>
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
